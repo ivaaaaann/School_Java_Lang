@@ -8,6 +8,8 @@ public class DataTypeStudy {
 		short shortValue = 32767;
 		long longValue = 3000000000111L;
 		
+		Integer integer  = 1;
+		
 	}
 	
 	public void studyRealNumberType() {
