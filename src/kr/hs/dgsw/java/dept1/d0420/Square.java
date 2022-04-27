@@ -1,11 +1,8 @@
 package kr.hs.dgsw.java.dept1.d0420;
 
 public class Square extends Rectangle {
-
-	protected final int width;
 	
 	Square(int width) {
-		this.width = width;
 		super(width, width);
 	}
 	

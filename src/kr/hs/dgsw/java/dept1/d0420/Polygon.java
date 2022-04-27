@@ -2,10 +2,6 @@ package kr.hs.dgsw.java.dept1.d0420;
 
 public class Polygon {
 
-	public Polygon () {
-		
-	}
-	
 	public String getType() {
 		return "다각형";
 	}
