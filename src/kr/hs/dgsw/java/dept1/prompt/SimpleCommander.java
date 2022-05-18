@@ -35,6 +35,7 @@ public class SimpleCommander {
 
 				/* Command 수행 */
 				this.currentDirectory = command.executeCommand();
+				
 				/* Exit 조건 검사 */
 				if (command.isExitCondition()) {
 					System.out.println("cannot find the path");
