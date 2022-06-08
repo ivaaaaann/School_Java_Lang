@@ -43,7 +43,7 @@ public class AdderWithThread {
 		
 		public void run() {
 			try {
-				Thread.sleep(1500L);				
+				Thread.sleep(1000);				
 			}catch(InterruptedException e) {
 				int result = value1 + value2;
 				System.out.printf("%d + %d = %d",value1, value2, result) ;
