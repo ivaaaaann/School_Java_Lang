@@ -1,16 +1,18 @@
 package kr.hs.dgsw.java.dept1.prompt;
 
 import java.io.File;
+import java.util.Scanner;
 
 public abstract class AbstractCommand {
 
 	protected final File currentDirectory;
-	
+	protected final Scanner scanner;
 	protected final String commandLine;
 	
 	public AbstractCommand(File currentDirectory, String commandLine) {
 		this.currentDirectory = currentDirectory;
 		this.commandLine = commandLine;
+		this.scanner = new Scanner(System.in);
 	}
 	
 	public boolean isExitCondition() {
